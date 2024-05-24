@@ -1,0 +1,103 @@
+body{
+    background-color: rgb(0, 221, 236);
+}
+
+img{
+    background-color: white;
+    width: 150px;
+    height: 150px;
+    padding: 15PX;
+    border-radius: 50px;
+}
+
+button{
+    border-radius: 50px;
+}
+
+.foi{
+    width: 200px;
+    height: 200px;
+}
+
+.x{
+    width: 90px;
+    height: 90px;
+}
+
+.xv{
+    transform: rotate(180deg);
+    width: 90px;
+    height: 90px;
+}
+
+#oponente{
+    position: absolute;
+    z-index: 1;
+    top: 35%;
+    left: 60%;
+}
+
+#jogador{
+    position: absolute;
+    z-index: 3;
+    top: 35%;
+    left: 30%;
+}
+
+#x{
+    position: absolute;
+    z-index: 3;
+    top: 40%;
+    left: 48%;
+}
+
+.v{
+    position: relative;
+    z-index: 3;
+    top: 60%;
+    left: -15%;
+}
+
+.volta {
+    position: relative;
+    z-index: 3;
+    top: 60%;
+    left: 13%;
+    --primary-color: #645bff;
+    --secondary-color: #fff;
+    --hover-color: #111;
+    box-sizing: border-box;
+    border: 0;
+    border-radius: 20px;
+    color: var(--secondary-color);
+    padding: 1em 1.8em;
+    background: var(--primary-color);
+    display: flex;
+    transition: 0.2s background;
+    align-items: center;
+    gap: 0.6em;
+    font-weight: bold;
+  }
+  
+  .volta:hover {
+    background-color: var(--hover-color);
+  }
+
+#a{
+    position: relative;
+    left: 35%;
+}
+
+#b{
+    position: absolute;
+    top: 73%;
+    left: 35%;
+}
+
+.j{
+    background-color: blue;
+}
+
+.bot{
+    background-color: rgb(255, 0, 0);
+}
